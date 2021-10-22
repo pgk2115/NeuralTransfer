@@ -10,6 +10,8 @@ possible to render the content of pictures in different styles. Neural style
 transfer allows us to take photographs and merge the information contained
 within them with the artistic styles of a separate picture
 
+The high-level math behind neural style transfer is to define two distance functions, one for content , L<sub>content</sub>, and one for style, L<sub>style</sub>. Then, given a style and a content image (also functions as the input image) optimization is performed to minimize both distance functions.
+
 ## Data
 
 The first task is to crop and reformat the images into a square. Cropping
